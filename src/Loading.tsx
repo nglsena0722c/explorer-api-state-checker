@@ -3,7 +3,7 @@ import "./Loading.css";
 
 const Loading = () => {
     return <img
-        src="/progressIcon.svg"
+        src="/explorer-api-state-checker/progressIcon.svg"
         alt="ProgressIcon"
         width="20px"
         height="20px"
