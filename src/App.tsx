@@ -28,7 +28,7 @@ function App() {
         <div className="text-[30px]">
           ErrorBoard
         </div>
-        <div className="w-full p-[20px] bg-white">
+        <div className="w-full p-[20px] bg-gray-300">
           {
             (errorRecord && errorRecord.length !== 0) ?
               errorRecord.map((err) => <div>
