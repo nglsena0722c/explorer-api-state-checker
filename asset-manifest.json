@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/explorer-api-state-checker/static/css/main.b8132c3f.css",
-    "main.js": "/explorer-api-state-checker/static/js/main.563bae0b.js",
+    "main.css": "/explorer-api-state-checker/static/css/main.0687ab74.css",
+    "main.js": "/explorer-api-state-checker/static/js/main.0f3b840c.js",
     "static/js/592.437c7436.chunk.js": "/explorer-api-state-checker/static/js/592.437c7436.chunk.js",
     "index.html": "/explorer-api-state-checker/index.html",
-    "main.b8132c3f.css.map": "/explorer-api-state-checker/static/css/main.b8132c3f.css.map",
-    "main.563bae0b.js.map": "/explorer-api-state-checker/static/js/main.563bae0b.js.map",
+    "main.0687ab74.css.map": "/explorer-api-state-checker/static/css/main.0687ab74.css.map",
+    "main.0f3b840c.js.map": "/explorer-api-state-checker/static/js/main.0f3b840c.js.map",
     "592.437c7436.chunk.js.map": "/explorer-api-state-checker/static/js/592.437c7436.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8132c3f.css",
-    "static/js/main.563bae0b.js"
+    "static/css/main.0687ab74.css",
+    "static/js/main.0f3b840c.js"
   ]
 }
