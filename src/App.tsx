@@ -11,7 +11,7 @@ function App() {
     <div className="mt-7 overflow-x-auto">
       <table className="w-full whitespace-nowrap">
         <tbody>
-          <Row name="LCD" link="https://dimension-lcd.xpla.dev/blocks/latest "/>
+          <Row name="LCD" link="https://dimension-lcd.xpla.dev/blocks/latest"/>
           <Row name="FCD" link="https://dimension-fcd.xpla.dev/v1/block_page?page=1&pageSize=25&order=DESC"/>
           <Row name="RPC" link="https://dimension-rpc.xpla.dev/block"/>
           <EVMRow name="EVM_RPC" link="https://dimension-evm-rpc.xpla.dev/"/>
