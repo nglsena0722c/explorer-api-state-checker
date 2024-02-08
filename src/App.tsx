@@ -8,7 +8,9 @@ function App() {
   const { errorRecord } = useErrorRecord();
 
   return (
-    <main className="flex min-h-screen flex-col items-center  p-24">
+    <main className="flex min-h-screen flex-col items-center  p-24 " style={{
+      zoom : 1.1
+    }}>
       <div className="text-[40px]">XPLA Explorer API State Checker</div>
       <div className=" mt-7 overflow-x-auto">
         <table className="w-full whitespace-nowrap">
