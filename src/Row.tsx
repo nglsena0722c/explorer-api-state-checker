@@ -12,7 +12,7 @@ const Row = ({
     const { data, isLoading } = useGet(link);
 
     return <>
-        <tr className="focus:outline-none h-16 border border-gray-100 rounded">
+        <tr className="focus:outline-none h-[240px] border border-gray-100 rounded">
             <td className="">
                 <div className="flex items-center pl-5">
                     <p className="text-base font-medium leading-none text-gray-700 mr-2">{name}</p>
@@ -38,7 +38,7 @@ const Row = ({
             </td>
 
             <td className="px-5">
-                <div className="py-3 px-3 text-sm w-full max-w-[400px] leading-none text-black bg-white rounded text-ellipsis overflow-hidden">{JSON.stringify(data)}</div>
+                <div className="py-3 px-3 h-full max-h-[200px] overflow-x-hidden overflow-y-auto text-sm w-full max-w-[400px] leading-none text-black bg-white rounded whitespace-normal break-all">{JSON.stringify(data)}</div>
             </td>
 
         </tr>
