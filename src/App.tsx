@@ -24,7 +24,7 @@ function App() {
           </tbody>
         </table>
       </div>
-      <div className="mt-10 w-full mx-[40px] border-[1px] border-solid border-black flex flex-col items-center ">
+      <div className="mt-10 p-4 w-full mx-[40px] border-[1px] border-solid border-black flex flex-col items-center ">
         <div className="text-[30px]">
           ErrorBoard
         </div>
