@@ -9,7 +9,7 @@ const Row = ({
     name: string
     link: string
 }) => {
-    const { data, isLoading } = usePost(link);
+    const { data, isLoading } = usePost(name, link);
 
     return <>
         <tr className="focus:outline-none h-16 border border-gray-100 rounded">

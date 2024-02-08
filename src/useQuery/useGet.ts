@@ -1,15 +1,19 @@
 import { useQuery } from '@tanstack/react-query';
 import axios from "axios";
+import useErrorRecord from '../Zustand/useError';
+import getTime from '../getTime';
 
-const useGet = (link: string) => {
+const useGet = (name : string, link: string) => {
+  const { errorRecord, setErrorRecord } = useErrorRecord();
+
   return useQuery({
     queryKey: ['useGet', link],
     queryFn: async () => {
       try {
         const { data } = await axios.get(link);
-        console.log(data);
         return data;
       } catch (e) {
+        setErrorRecord([...errorRecord, {name , error: e instanceof Error ? e.message : String(e), time :getTime(new Date())}])
         return 'error';
       }
     },

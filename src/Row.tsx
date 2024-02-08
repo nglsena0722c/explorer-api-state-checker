@@ -9,7 +9,7 @@ const Row = ({
     name: string
     link: string
 }) => {
-    const { data, isLoading } = useGet(link);
+    const { data, isLoading } = useGet(name, link);
 
     return <>
         <tr className="focus:outline-none h-[240px] border border-gray-100 rounded">
