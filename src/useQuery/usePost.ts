@@ -9,7 +9,7 @@ const usePost = (name: string, link: string) => {
     queryKey: ['usePost', link],
     queryFn: async () => {
       try {
-        const { data } = await axios.post(link, { "jsonrpc": "2.0", "method": "eth_blockNumber", "params": [], "id": 1 });
+        const { data } = await axios.post(link, { "jsonrpc": "2.0", "method": "eth_blockNumber", "params": [], "id": 1 }, { timeout: 3000 });
         return data;
       } catch (e) {
         setErrorRecord([...errorRecord, { name, error: e instanceof Error ? e.message : String(e), time: getTime(new Date()) }])
