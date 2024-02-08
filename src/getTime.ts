@@ -4,7 +4,6 @@ const getTime = (today: Date) => {
     var day = ('0' + today.getDate()).slice(-2);
   
     var dateString = year + '-' + month + '-' + day;
-    var today = new Date();
   
     var hours = ('0' + today.getHours()).slice(-2);
     var minutes = ('0' + today.getMinutes()).slice(-2);
